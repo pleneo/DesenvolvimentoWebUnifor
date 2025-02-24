@@ -1,0 +1,45 @@
+#title{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;    
+    text-align: center;
+}
+
+p{
+    font-size: large;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#journal{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+ul{
+    list-style:square;
+    display: inline-block;
+    text-align: left;
+    
+
+}
+
+div.container{
+    text-align: center;
+}
+
+#news{
+    display: flex;
+    
+}
+
+#news:hover{
+    background-color:cyan;
+    cursor:grabbing;
+}
+
+#creator{
+    padding-top: 60px;
+}
