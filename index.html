@@ -1,45 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>notisias maresol</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        #news{
-            color: rgb(39, 0, 116);
-        }
-    </style>
-
-</head>
-<body style="background-color: rgb(161, 215, 247);">
-    <header>
-        <div>
-            <h1 id="title">Eu adoro o twitter <img src="twitter_logo.png" style="width: 30px; padding: 5px; align-items: center;"></h1>
-            <p>jovem brasileiro declara: "eu adoro o twitter".</p>
-        </div>
-        
-        <div>
-            <p>ele acaba de ser preso por essa declarassao<br></p>
-        </div>
-
-        <h3 id="journal"><br><br>jornal o grobo</h3>
-        
-    </header>
-
-    <footer>
-        <h4 id="footer_title" style="text-align: center;">ssaiba mais:</h4>
-
-    
-        <div class="container">
-            <ul>
-                <li><a id="news" href="gb.html">Assassinato de Michael Jackson </a></li>
-                <li><a id="news" href="ga.html">Assassinato de David Lynch </a></li>
-                <li><a id="news" href="gc.html">Assassinato do Rei Pelé </a></li>
-            </ul>
-        </div>
-
-        <br><br>
-        <p id="creator"><a href="images.jpg">face do criador</a></p>
-    </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+initial-scale=1.0"
+    />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lista de Tarefas</h1>
+      <div class="todo-input">
+        <input type="text" id="taskInput" placeholder="Adicionar nova tarefa" />
+        <button onclick="addTask()">Adicionar</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
